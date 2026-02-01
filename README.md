@@ -51,3 +51,27 @@ O sistema opera diretamente no dispositivo (**Edge AI**), reduzindo latência e 
 
 ## 📁 Estrutura do Projeto
 
+configs/
+device_config.yaml # Configurações do dispositivo e API
+
+src/
+main.py # Execução principal do sistema
+predict.py # Inferência e visualização
+api/ # Integrações auxiliares
+
+data/
+images/ # Dataset / imagens de entrada
+
+results/
+examples/ # Exemplos de detecções geradas
+
+runs/
+segment/ # Pesos do modelo YOLO (best.pt)
+
+docs/
+dataset.md # Informações sobre o dataset
+model.md # Detalhes do modelo treinado
+
+requirements.txt
+README.md
+

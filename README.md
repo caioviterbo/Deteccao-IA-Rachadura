@@ -1,4 +1,4 @@
-# 🧠 Sistema Inteligente de Detecção de Rachaduras Estruturais (Edge AI)
+# 🧠 Sistema Inteligente de Detecção de Rachaduras Estruturais 
 
 Sistema embarcado de **detecção e segmentação de rachaduras em tempo real**, desenvolvido para execução em **Raspberry Pi 5**, utilizando **Visão Computacional e Deep Learning**, com envio automático de **alertas via API REST e e-mail** quando uma anomalia crítica é identificada.
 
